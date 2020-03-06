@@ -1,55 +1,120 @@
-.titulo-principal {
-    padding-left: 20px;
-    font-size: 20px;
-    font-weight: bold;
+header {
+  background: #bbbbbb;
+  
 }
 
-#banner {
-    width: 100%;
-    
+.caixa {
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
 }
 
-.principal {
-    background: #cccccc;
-    padding: 50px;
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
 }
 
-.titulo-centralizado {
-    text-align: center;
-    font-size: 1.5em;
-    font-weight: bold;
-    margin-bottom: 10px;
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
 }
 
-p {
-    text-align: center;
-    margin-bottom: 10px;
+nav a {
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+  
 }
 
-#missao {
-    font-size: 20px;
+nav a:hover {
+  color: #c78c19;
+  text-decoration: underline;
 }
 
-em strong {
-    color: #FF0000;
+.produtos {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
 }
 
-.itens {
-    font-style: italic;
+.produtos li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 10px;
 }
 
-.beneficios {
-    background: white;
-    padding: 20px;
+.produtos li:hover {
+  cursor: pointer;
+  border-color: #c78c19;
 }
 
-.beneficios ul {
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+.produtos li:active {
+  border-color: #088c19;
 }
 
-.beneficios img {
-    width: 50%;
+.produtos li:hover h3 {
+  font-size: 34px;
+}
+
+.produtos h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.produto-descricao {
+  font-size: 18px;
+}
+
+.produto-preco {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  background: url("../img/bg.jpg");
+  padding: 40px 0;
+}
+
+.copyright {
+  color: white;
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+main {
+  width: 940px;
+  margin: 0 auto;
+}
+
+form {
+  margin: 40px 0;
+  
+}
+
+form label, form p {
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+.input-padrao {
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+}
+
+.checkbox {
+  margin: 20px 0;
 }
