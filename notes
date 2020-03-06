@@ -1,0 +1,21 @@
+<!-- Informa a versão do html  -->
+<!DOCTYPE html>
+<!-- marca tudo o que é html -->
+<html lang="pt-br">
+
+<head>
+    <!-- Configuração para que os acentos apareçam corretamente -->
+    <meta charset="UTF-8">
+
+/* Position: static; é o padrão, seguindo o fluxo da página */
+/* Position: relative; a movimentação ocorre a partir do ponto inicial do elemento*/
+/* Position: absolute; modifica o ponto inicial */
+
+/* O primeiro valor é para cima e para baixo, o segundo para esquer e para direita */
+padding: 20px 0;
+
+/* Aplica para todos os lados */
+padding: 20px;
+
+/* Inicia do topo, e segue sentindo horário */
+padding: 20px 0 0 0;
