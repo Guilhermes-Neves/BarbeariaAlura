@@ -56,3 +56,8 @@ A tag tbody, que representa o corpo da tabela
 A tag th, que representa a célula do cabeçalho da tabela
 A tag tfoot, que representa o rodapé da tabela
 A estilizar a tabela
+
+A ajustar a página principal para utilizar os mesmos padrões da página de produtos
+Medidas proporcionais com CSS
+Como funciona a flutuação dos elementos e como modificá-la, com a propriedade float do CSS
+Como limpar o float, com a propriedade clear do CSS
