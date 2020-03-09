@@ -61,3 +61,58 @@ A ajustar a página principal para utilizar os mesmos padrões da página de pro
 Medidas proporcionais com CSS
 Como funciona a flutuação dos elementos e como modificá-la, com a propriedade float do CSS
 Como limpar o float, com a propriedade clear do CSS
+
+/* Seletores avançados CSS */
+
+Seletores avançados CSS
+Seletor >, para acessar os filhos de determinado elemento. Por exemplo, para acessar todos os p dentro de main:
+main > p {
+}
+Seletor +, para acessar o primeiro irmão de determinado elemento. Por exemplo, para acessar o primeiro p após um img:
+img + p {
+}
+Seletor ~, para acessar todos os irmãos de determinado elemento. Por exemplo, para acessar todos os p após um img:
+img ~ p {
+}
+Seletor not, para acessar os elementos, exceto algum. Por exemplo, para acessar todos os p dentro de main, exceto o p que tem id missao:
+main p:not(#missao) {
+}
+Como fazer contas com CSS, com a propriedade calc
+
+Selecionar um filho direto de um elemento
+
+* main > p = um parágrafo dentro da tag main, porém somente filhos.
+
+Selecionar 1 elemento que vem logo após outro
+
+* img + p = o primeiro parágrafo que vem logo após uma imagem
+
+* img ~ p = todos os p que estão após uma imagem
+
+* .principal p:not(#missao) = selecior todos os parágrafos que não possuem o id: missao
+
+/* Fazer calculo com CSS */
+
+* width: calc (40% - 26px);
+
+/* Opacidade dos elementos */
+
+Exibir 30 porcento
+opacity: 0.3;
+opacity: 1 até 0;
+
+cores com Opacidade
+
+deve estar no formato rgb
+
+color: rgba(0,0,0,0.3)
+
+/* Sombra nos elementos */
+            eixo x  eixo y  parte transparente intensidade cor
+box-shadow: 10px    10px    30px               20px        #000000
+
+Sombra interna
+box-shadow: inset
+
+Sombra nos textos
+text-shadow: ;
